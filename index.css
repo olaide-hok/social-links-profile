@@ -138,14 +138,16 @@ body {
     cursor: pointer;
 }
 
-@media (min-width: 376px) {
-    .card {
-        max-width: 376px;
-    }
-}
-
 @media (min-width: 768px) {
     .card {
         max-width: 456px;
+        padding: var(--spacing-500);
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 376px;
+        padding: var(--spacing-500);
     }
 }
