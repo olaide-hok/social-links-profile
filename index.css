@@ -138,6 +138,12 @@ body {
     cursor: pointer;
 }
 
+.card .social_links a:focus {
+    background-color: var(--green);
+    color: var(--grey-700);
+    cursor: pointer;
+}
+
 @media (min-width: 768px) {
     .card {
         max-width: 456px;
